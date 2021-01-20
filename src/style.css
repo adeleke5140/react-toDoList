@@ -36,6 +36,10 @@ form {
     flex-direction: column;
     align-items: center;
   }
+
+  form input {
+    width: 100%;
+  }
 }
 
 form input,
@@ -44,7 +48,6 @@ form button {
   font-size: 2em;
   border: none;
   background: white;
-  font-family: "Fraunces", serif;
 }
 form button {
   color: var(--primary);
