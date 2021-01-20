@@ -47,13 +47,13 @@ form button {
   font-family: "Fraunces", serif;
 }
 form button {
-  color: #ff6f47;
+  color: var(--primary);
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 form button:hover {
-  background: #ff6f47;
+  background: var(--primary);
   color: white;
 }
 .todo-container {
@@ -87,7 +87,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: var(--primary);
   color: white;
   border: none;
   padding: 1rem;
@@ -136,11 +136,10 @@ select {
   overflow: hidden;
 }
 select {
-  color: #ff6f47;
+  color: var(--primary);
   cursor: pointer;
   width: 12rem;
   background: white;
-  font-family: "Fraunces", serif;
   font-weight: bold;
 }
 /* Arrow */
@@ -150,7 +149,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
+  background: var(--primary);
   cursor: pointer;
   pointer-events: none;
 }
